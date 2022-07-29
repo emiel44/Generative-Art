@@ -1,0 +1,11 @@
+body{
+    justify-content: center;
+    display: flex;
+    padding-top: 149px;
+    background-color: #ddf2ff;
+}    
+
+canvas{
+    border: 20px solid black;
+    background-color: #fff;
+}
