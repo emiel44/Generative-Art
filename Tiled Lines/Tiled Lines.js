@@ -1,7 +1,6 @@
 var canvas = document.querySelector('canvas');
 var context = canvas.getContext('2d');
 
-
 var size = 320;
 var step = 40;
 var dpr = window.devicePixelRatio;
@@ -13,9 +12,6 @@ function kleur(max){
   return Math.floor(Math.random()*(max+1));
 }
 
-function kleur2(max){
-  return Math.floor(Math.random()*(max+1));
-}
 document.body.style.backgroundColor = `rgb(`+ kleur(255) + `,`+ kleur(255) + `,` + kleur(255) + `)`;
 
 red = kleur(200);

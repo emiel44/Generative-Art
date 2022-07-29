@@ -11,7 +11,17 @@ context.lineWidth = 2;
 var step = 16;
 var lines = [];
 
+function kleur(max){
+  return Math.floor(Math.random()*(max+1));
+}
 
+document.body.style.backgroundColor = `rgb(`+ kleur(255) + `,`+ kleur(255) + `,` + kleur(255) + `)`;
+
+red = kleur(200);
+green = kleur(200);
+blue = kleur(200);
+var kleur1 = `rgb(${red}, ${green}, ${blue})`;
+context.strokeStyle = kleur1;
 
 for(var i = step; i <= size - step; i += step) {
 
